@@ -1,0 +1,12 @@
+
+.main-home-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+
+    background-image: url("https://i.ibb.co.com/9HctPtdG/yura-lytkin-C9-LAdcvmg-VU-unsplash.jpg");
+    background-size: cover;
+}
+
+

@@ -1,8 +1,8 @@
-
+import "./wel.css"
 
 export function Welcome(){
   return(
-    <div>
+    <div className="main-home-div">
       Hello World
     </div>
   )
