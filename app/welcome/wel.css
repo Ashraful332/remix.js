@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     height: 100vh;
 
     background-image: url("https://i.ibb.co.com/9HctPtdG/yura-lytkin-C9-LAdcvmg-VU-unsplash.jpg");
@@ -10,3 +11,26 @@
 }
 
 
+.child-home-div{
+    width: 500px;
+    color: rgba(0, 0, 0, 0.664);
+    background-color: rgba(0, 255, 255, 0.027);
+    padding: 50px 30px 50px 30px;
+    border-radius: 50px;
+
+    backdrop-filter: blur(1.2px);
+    border-top: 1px solid rgba(255, 255, 255, 0.712);
+    border-left: 1px solid rgba(255, 255, 255, 0.432);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.384);
+    border-right: 1px solid rgba(255, 255, 255, 0.404);
+
+}
+
+.child-home-div h3 {
+    font-weight: 800;
+    font-size: 26px;
+}
+.child-home-div p {
+    font-weight: 500;
+    font-size: 14px;
+}
