@@ -5,7 +5,9 @@ type WelcomeProps = {
   data: string;
 };
 
+
 export function Welcome({ head, data }: WelcomeProps) {
+  
   return (
     <div className="main-home-div">
       <div className="child-home-div">
